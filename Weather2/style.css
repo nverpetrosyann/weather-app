@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: rgb(171, 209, 196);
+}
+
+#card {
+    border: 2px solid white;
+    margin: 90px auto;
+    width:  350px;
+    border-radius: 20px;
+}
+
+#search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+
+
+}
+
+#search-input {
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px;
+}
+
+#search-button {
+    width: 42px;
+    height: 41px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+#search-button:hover {
+    background-color: white;
+}
+#search-button > img {
+    width: 16px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+#weather-icon {
+    width: 160px;
+    height: 160px;
+    margin: 0px 90px;
+}
+
+#list-h1 {
+    color: white;
+    margin-bottom: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+#list-h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+#details {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+#humidity {
+    width: 50px;
+    height: 50px;
+}
+
+#wind {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+#details-p1 {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+}
+#details-p2 {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+
+}
+#details-humidity {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+#details-wind {
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18px;
+    margin-left: 10px;
+    color: white;
+
+}
